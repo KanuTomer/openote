@@ -1,0 +1,40 @@
+.footer-section{
+    height: 28rem;
+    background-color: rgb(0, 0, 0);
+    color: #808080;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.footer-first{
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    padding: 2rem 0;
+}
+.footer-first p{
+    margin-left: 55rem;
+    font-size: 1rem;
+}
+
+
+.leftfoot{
+    background-color: transparent;
+    display: flex;
+    margin-bottom: 4rem;
+}
+.blogfoot{
+    margin-left: 10rem;
+}
+.productfoot{
+    margin-left: 10rem;
+}
+.blogfoot p:hover{
+    color: white;
+}
+.aboutfoot p:hover{
+    color: white;
+}
+.productfoot p:hover{
+    color: white;
+}

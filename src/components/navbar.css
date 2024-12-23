@@ -1,0 +1,58 @@
+/* Make the navbar sticky to the top */
+.navbar {
+    position: sticky;
+    top: 0;
+    padding-block: 10px;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: 'Century Gothic';
+    text-decoration: none;
+  }
+  
+  /* Align the content centrally with a max width of 1440px and some padding */
+  .navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1150px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+  
+  /* Left side: logo styling */
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* Right side: links and user icon styling */
+  .navbar-right nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-right nav a {
+    margin-left: 20px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .navbar-right nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* User icon styling */
+  .user-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    margin-left: 20px;
+  }
+  
