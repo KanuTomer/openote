@@ -1,7 +1,7 @@
 .footer-section{
     height: 28rem;
     background-color: rgb(0, 0, 0);
-    color: #808080;
+    color: #969696;
     display: grid;
     align-items: center;
     justify-content: center;
@@ -38,3 +38,4 @@
 .productfoot p:hover{
     color: white;
 }
+

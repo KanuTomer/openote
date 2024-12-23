@@ -2,7 +2,7 @@ import React from 'react';
 // import Navbar from './navbar';
 import TitleSection from './TitleSection';
 import HowItWorksSection from './HowItWorksSection';
-import Footer from './footer';
+// import Footer from './footer';
 
 function HomePage() {
   return (
@@ -10,7 +10,7 @@ function HomePage() {
       {/* <Navbar /> */}
       <TitleSection />
       <HowItWorksSection />
-      <Footer />
+      
     </>
   );
 }
