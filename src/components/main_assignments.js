@@ -47,37 +47,37 @@ const AssignmentsPage = () => {
               <p>Submitted</p>
             </div>
             <div className='lib-ass-cont'>
-              <div className='lib-ass-ele'>
+              <div className='lib-a-ele'>
               <p>MA402 Assignment 1</p>
               <p><img src="/download.png" alt="User Icon" className="download-logo" /></p>
               <p>24/11/2024</p>
               <p>Submitted</p>
               </div>
-              <div className='lib-ass-ele'><p>MA402 Assignment 2</p>
+              <div className='lib-a-ele'><p>MA402 Assignment 2</p>
               <p><img src="/download.png" alt="User Icon" className="download-logo" /></p>
               <p>24/11/2024</p>
               <p>Submitted</p></div>
-              <div className='lib-ass-ele'><p>MA402 Assignment 3</p>
+              <div className='lib-a-ele'><p>MA402 Assignment 3</p>
               <p><img src="/download.png" alt="User Icon" className="download-logo" /></p>
               <p>24/11/2024</p>
               <p>Submitted</p></div>
-              <div className='lib-ass-ele'><p>MA402 Assignment 4</p>
+              <div className='lib-a-ele'><p>MA402 Assignment 4</p>
               <p><img src="/download.png" alt="User Icon" className="download-logo" /></p>
               <p>24/11/2024</p>
               <p>Submitted</p></div>
-              <div className='lib-ass-ele'><p>MA402 Assignment 5</p>
+              <div className='lib-a-ele'><p>MA402 Assignment 5</p>
               <p><img src="/download.png" alt="User Icon" className="download-logo" /></p>
               <p>24/11/2024</p>
               <p>Submitted</p></div>
-              <div className='lib-ass-ele'><p>MA402 Assignment 6</p>
+              <div className='lib-a-ele'><p>MA402 Assignment 6</p>
               <p><img src="/download.png" alt="User Icon" className="download-logo" /></p>
               <p>24/11/2024</p>
               <p>Submitted</p></div>
-              <div className='lib-ass-ele'><p>MA402 Assignment 7</p>
+              <div className='lib-a-ele'><p>MA402 Assignment 7</p>
               <p><img src="/download.png" alt="User Icon" className="download-logo" /></p>
               <p>24/11/2024</p>
               <p>Submitted</p></div>
-              <div className='lib-ass-ele'><p>MA402 Assignment 8</p>
+              <div className='lib-a-ele'><p>MA402 Assignment 8</p>
               <p><img src="/download.png" alt="User Icon" className="download-logo" /></p>
               <p>24/11/2024</p>
               <p>Submitted</p></div>

@@ -39,7 +39,7 @@ const Syllabus = () => {
         <div className="menu2"><p>Syllabus</p></div>
         </div>
         <div className='lib-right-main'>
-          <div className='lib-assign'>
+          <div className='syla'>
             <div className='lib-syl'>
               <div className='syl-photo'><img src="/document1.png" alt="User Icon" className="document" /></div>
               <div className='syl-cont'><p>MA402</p><img src="/download.png" alt="User Icon" className="download-logo" /></div>

@@ -15,8 +15,8 @@ const Navbar = () => {
         <div className="navbar-right">
           <nav>
             {/* Links to other routes */}
-            <Link to="/uploads">uploads</Link>
-            <Link to="/library">library</Link>
+            <Link to="/login ">uploads</Link>
+            <Link to="/main_notes">library</Link>
             <Link to="/login">
               <img src="/user-icon.png" alt="User Icon" className="user-icon" />
             </Link>

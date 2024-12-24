@@ -39,8 +39,8 @@ const QnA = () => {
         <div className="menu2"><p><Link to="/main_Syllabus">Syllabus</Link></p></div>
         </div>
         <div className='lib-right-main'>
-          <div className='lib-assign'>
-            <div className='lib-ass-head'>
+          <div className='ques'>
+            <div className='lib-a-h'>
               <p>Name</p>
               <p2>Download</p2>
             </div>

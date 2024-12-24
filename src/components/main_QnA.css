@@ -162,7 +162,7 @@
     height: 100%;
     border-radius: 0.8rem;
 }
-.lib-assign{
+.ques{
     height: 40.5rem;
     width: 90rem;
     margin-top: 2rem;
@@ -172,7 +172,7 @@
     display: grid;
     justify-content: center;
 }
-.lib-ass-head{
+.lib-a-h{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -184,12 +184,12 @@
     font-size: 1.5rem;
     box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
 }
-.lib-ass-head p{
+.lib-a-h p{
     display: flex;
     align-items: center;
     margin-left: -18rem;
 }
-.lib-ass-head p2{
+.lib-a-h p2{
     display: flex;
     align-items: center;
     margin-right: -23rem;

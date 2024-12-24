@@ -38,7 +38,7 @@ const NotesPage = () => {
         <div className="menu"><p><Link to="/main_pastyear">Test Papers</Link></p></div>
         <div className="menu2"><p><Link to="/main_Syllabus">Syllabus</Link></p></div>
         </div>
-        <div className='lib-right-main'>
+        <div className='lib-r-main'>
           <div className='main-file1'>
             <div className='main-file'>
               <div className='image'><img src="/doc_logo.png" alt="User Icon" className="logo"/></div>
