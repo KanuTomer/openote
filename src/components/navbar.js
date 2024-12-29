@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './navbar.css';
+import './Css/navbar.css';
 
 const Navbar = () => {
   return (
@@ -16,7 +16,7 @@ const Navbar = () => {
           <nav>
             {/* Links to other routes */}
             <Link to="/login ">uploads</Link>
-            <Link to="/main_notes">library</Link>
+            <Link to="/dashboard">library</Link>
             <Link to="/login">
               <img src="/user-icon.png" alt="User Icon" className="user-icon" />
             </Link>

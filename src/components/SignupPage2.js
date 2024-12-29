@@ -1,5 +1,5 @@
 import React from 'react';
-import './SignupPage2.css';
+import './Css/SignupPage2.css';
 import { useNavigate } from 'react-router-dom';
 
 const SignupPage2 = () => {

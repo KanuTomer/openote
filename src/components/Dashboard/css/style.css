@@ -1,0 +1,209 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.dashboard {
+    display: flex;
+}
+
+/* Left Panel */
+.left-panel {
+    width: 20%;
+    background-color: #add8e6; /* Light blue */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.upload-btn,
+.home-btn {
+    padding: 12px 24px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px; /* Adjust spacing between text and button */
+    transition: background-color 0.5s ease-in-out, transform 0.4s ease;
+}
+.upload-btn:hover,.home-btn:hover {
+    background-color: black;
+  color: white;
+}
+
+.upload-btn .icon {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.dropdown-section {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.dropdown {
+    margin: 10px 0;
+}
+
+.dropdown-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.5s ease-in-out, transform 0.4s ease;
+}
+
+.dropdown-header:hover{
+    background-color: black;
+    color:white;
+}
+
+.dropdown-icon {
+    width: 15px;
+    height: 15px;
+    transform: rotate(0deg);
+    transition: transform 0.2s;
+}
+
+.dropdown-icon.open {
+    transform: rotate(180deg);
+}
+
+.dropdown-list {
+    list-style: none;
+    padding: 15px;
+    margin: 0px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    transition: background-color 0.5s ease-in-out, transform 0.4s ease;
+}
+
+.dropdown-list:hover{
+    background-color: black;
+    color: white;
+    
+    
+}
+
+.username-section {
+    margin-top: auto;
+    text-align: center;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 6px;
+}
+
+.user-icon {
+    width: 50px;
+    height: 50px;
+    background-image: url("/public/user-icon.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+/* Right Panel */
+.right-panel {
+    width: 80%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.tabs button {
+    background-color: white;
+    color:black;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 2px;
+    margin-right: 2px;
+
+    justify-content: center;
+    width: 100%;
+    transition: background-color 0.5s ease-in-out, transform 0.4s ease;
+}
+
+.tabs button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Content Section */
+.content-section {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: white;
+    overflow-y: auto;
+    max-height: 500px;
+}
+
+/* Notes Grid */
+.notes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+}
+
+.document-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.document-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.document-details {
+    font-size: 14px;
+    color: #333;
+}
+
+/* Assignments Table */
+.assignments-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.assignments-table th,
+.assignments-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.assignments-table th {
+    background-color: #add8e6;
+}
+
+.download-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.download-icon {
+    width: 20px;
+    height: 20px;
+}

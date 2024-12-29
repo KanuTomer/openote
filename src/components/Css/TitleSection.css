@@ -1,6 +1,6 @@
 /* TitleSection.css */
 .title-section {
-  background-image: url("E:\Workspace\React\Final\public\background.png");
+  background-image: url("/public/background.png");
   background-size: cover;
   background-position: center;
   height: 650px;

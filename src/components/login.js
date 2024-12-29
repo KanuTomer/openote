@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import './SignupPage.css';
+import './Css/SignupPage.css';
 // import Footer from './footer';
 
 const Login = () => {
@@ -8,7 +8,7 @@ const Login = () => {
 
   const handleContinue = (e) => {
     e.preventDefault();
-    navigate('/main_notes'); // Navigate to SignupPage2
+    navigate('/main_notes'); // Navigate to main_notes
   };
 
   return (

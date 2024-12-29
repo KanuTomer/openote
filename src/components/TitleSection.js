@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
-import './TitleSection.css'; // Import the CSS
+import './Css/TitleSection.css'; // Import the CSS
 
 function TitleSection() {
   const navigate = useNavigate(); // Initialize navigate function

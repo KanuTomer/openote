@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
-import './main_QnA.css';
+import './Css/main_QnA.css';
 import { Link } from 'react-router-dom';
 
 const QnA = () => {

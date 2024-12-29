@@ -1,6 +1,6 @@
 // HowItWorksSection.js
 import React from 'react';
-import './HowItWorksSection.css';
+import './Css/HowItWorksSection.css';
 /*import dashboardImg from '../../public/Dashboard.png';
 import dashboard2Img from '../../public/Dashboard 2.png';
 import subjectsImg from '../../public/Subjects.png';*/

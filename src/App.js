@@ -11,6 +11,7 @@ import PastYear from './components/main_pastyear';
 import QnA from './components/main_QnA';
 import Syllabus from './components/main_Syllabus';
 import Login from './components/login';
+import Dashboard from './components/Dashboard/dashboard';
 
 function App() {
   return (
@@ -26,7 +27,7 @@ function App() {
         <Route path="/main_QnA" element={<QnA />} />
         <Route path="/main_Syllabus" element={<Syllabus />} />
         <Route path="/login" element={<Login />} />
-
+        <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
       <Footer />
     </Router>

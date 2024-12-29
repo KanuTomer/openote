@@ -1,5 +1,5 @@
 .signup-page2 {
-    background-image: url("E:\Workspace\React\Final\public\background.png");
+    background-image: url("/public/background.png");
     background-size: cover;
     background-position: center;
     height: 91.5vh;

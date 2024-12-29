@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import './SignupPage.css';
+import './Css/SignupPage.css';
 // import Footer from './footer';
 
 const SignupPage = () => {

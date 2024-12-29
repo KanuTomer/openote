@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
-import './main_Syllabus.css';
+import './Css/main_Syllabus.css';
 import { Link } from 'react-router-dom';
 
 const Syllabus = () => {
