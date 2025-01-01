@@ -1,10 +1,12 @@
 import React from "react";
 import { Routes, Route, Link, Navigate } from "react-router-dom";
+// import Notes from "./notes";
+// import Assignments from "./assignments";
 
 // Notes Component (Default Grid View)
 const Notes = () => (
     <div className="notes-grid">
-        {Array.from({ length: 8 }).map((_, index) => (
+        {Array.from({ length: 20 }).map((_, index) => (
             <div key={index} className="document-card">
                 <img src="doc_logo.png" alt="Document" className="document-icon" />
                 <div className="document-details">
@@ -29,12 +31,12 @@ const Assignments = () => (
                 </tr>
             </thead>
             <tbody>
-                {Array.from({ length: 8 }).map((_, index) => (
+                {Array.from({ length: 10 }).map((_, index) => (
                     <tr key={index}>
                         <td>MA402 Assignment {index + 1}</td>
                         <td>
                             <button className="download-btn">
-                                <img src="doc_logo.png" alt="Download" className="download-icon" />
+                                <img src="download.png" alt="Download" className="download-icon" />
                             </button>
                         </td>
                         <td>24/11/2024</td>

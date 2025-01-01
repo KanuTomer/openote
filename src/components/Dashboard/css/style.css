@@ -2,6 +2,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    
 }
 
 .dashboard {
@@ -17,6 +18,7 @@ body {
     align-items: center;
     padding: 10px;
     box-sizing: border-box;
+    
 }
 
 .upload-btn,
@@ -46,10 +48,12 @@ body {
 .dropdown-section {
     width: 100%;
     margin: 20px 0;
+    
 }
 
 .dropdown {
     margin: 10px 0;
+    min-height: max-content;
 }
 
 .dropdown-header {
@@ -135,7 +139,6 @@ body {
     font-size: 16px;
     margin-left: 2px;
     margin-right: 2px;
-
     justify-content: center;
     width: 100%;
     transition: background-color 0.5s ease-in-out, transform 0.4s ease;
@@ -153,6 +156,7 @@ body {
     background-color: white;
     overflow-y: auto;
     max-height: 500px;
+    border-radius: 10px;
 }
 
 /* Notes Grid */
@@ -160,6 +164,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 15px;
+    border-radius: 5%;
 }
 
 .document-card {
@@ -167,11 +172,12 @@ body {
     padding: 10px;
     text-align: center;
     background-color: #f9f9f9;
+    border-radius: 5%;
 }
 
 .document-icon {
-    width: 50px;
-    height: 50px;
+    width: 80%;
+    height: auto;
     margin-bottom: 10px;
 }
 
@@ -184,6 +190,8 @@ body {
 .assignments-table {
     width: 100%;
     border-collapse: collapse;
+    border-radius: 10px;
+    
 }
 
 .assignments-table th,
@@ -191,6 +199,7 @@ body {
     border: 1px solid #ccc;
     padding: 10px;
     text-align: center;
+    
 }
 
 .assignments-table th {
@@ -201,6 +210,8 @@ body {
     background: none;
     border: none;
     cursor: pointer;
+    scale: 2;
+    margin-top: 5%;
 }
 
 .download-icon {

@@ -27,7 +27,7 @@ function App() {
         <Route path="/main_QnA" element={<QnA />} />
         <Route path="/main_Syllabus" element={<Syllabus />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/*" element={<Dashboard />} />
       </Routes>
       <Footer />
     </Router>

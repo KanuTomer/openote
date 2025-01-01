@@ -60,7 +60,7 @@ function LeftPanel() {
             </div>
 
             <div className="username-section">
-                <div className="user-icon"></div>
+                <div className="user-icon" ></div>
                 Username
             </div>
         </div>
