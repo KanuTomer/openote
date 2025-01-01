@@ -4,6 +4,21 @@ function LeftPanel() {
     const [subjectsOpen, setSubjectsOpen] = useState(false);
     const [libraryOpen, setLibraryOpen] = useState(false);
 
+    const subjects = [
+        "Internet Of Things",
+        "Soft Computing Techniques",
+        "Machine Learning",
+        "Cloud Computing",
+        "Simulation And Modeling",
+    ];
+
+    const libraryItems = [
+        "Favourites",
+        "Recents",
+        "Uploads",
+        "Read Later",
+    ];
+
     return (
         <div className="left-panel">
             <button className="upload-btn">
@@ -25,15 +40,13 @@ function LeftPanel() {
                             className={`dropdown-icon ${subjectsOpen ? "open" : ""}`}
                         />
                     </div>
-                    {subjectsOpen && (
-                        <ul className="dropdown-list">
-                            <li>Internet Of Things</li>
-                            <li>Soft Computing Techniques</li>
-                            <li>Machine Learning</li>
-                            <li>Cloud Computing</li>
-                            <li>Simulation And Modeling</li>
-                        </ul>
-                    )}
+                    <ul className={`dropdown-list ${subjectsOpen ? "open" : ""}`}>
+                        {subjects.map((subject, index) => (
+                            <li key={index} className="dropdown-item">
+                                {subject}
+                            </li>
+                        ))}
+                    </ul>
                 </div>
 
                 <div className="dropdown">
@@ -48,19 +61,18 @@ function LeftPanel() {
                             className={`dropdown-icon ${libraryOpen ? "open" : ""}`}
                         />
                     </div>
-                    {libraryOpen && (
-                        <ul className="dropdown-list">
-                            <li>Favourites</li>
-                            <li>Recents</li>
-                            <li>Uploads</li>
-                            <li>Read Later</li>
-                        </ul>
-                    )}
+                    <ul className={`dropdown-list ${libraryOpen ? "open" : ""}`}>
+                        {libraryItems.map((item, index) => (
+                            <li key={index} className="dropdown-item">
+                                {item}
+                            </li>
+                        ))}
+                    </ul>
                 </div>
             </div>
 
             <div className="username-section">
-                <div className="user-icon" ></div>
+                <div className="user-icon"></div>
                 Username
             </div>
         </div>

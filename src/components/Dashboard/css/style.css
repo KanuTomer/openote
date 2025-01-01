@@ -2,7 +2,6 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    
 }
 
 .dashboard {
@@ -18,7 +17,6 @@ body {
     align-items: center;
     padding: 10px;
     box-sizing: border-box;
-    
 }
 
 .upload-btn,
@@ -35,9 +33,11 @@ body {
     margin-top: 10px; /* Adjust spacing between text and button */
     transition: background-color 0.5s ease-in-out, transform 0.4s ease;
 }
-.upload-btn:hover,.home-btn:hover {
+
+.upload-btn:hover,
+.home-btn:hover {
     background-color: black;
-  color: white;
+    color: white;
 }
 
 .upload-btn .icon {
@@ -48,7 +48,6 @@ body {
 .dropdown-section {
     width: 100%;
     margin: 20px 0;
-    
 }
 
 .dropdown {
@@ -66,9 +65,9 @@ body {
     transition: background-color 0.5s ease-in-out, transform 0.4s ease;
 }
 
-.dropdown-header:hover{
+.dropdown-header:hover {
     background-color: black;
-    color:white;
+    color: white;
 }
 
 .dropdown-icon {
@@ -84,18 +83,37 @@ body {
 
 .dropdown-list {
     list-style: none;
-    padding: 15px;
-    margin: 0px;
-    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+    background-color: white;
     border-radius: 6px;
-    transition: background-color 0.5s ease-in-out, transform 0.4s ease;
 }
 
-.dropdown-list:hover{
+.dropdown-list.open {
+    max-height: 300px; /* Adjust this to fit your content */
+    opacity: 1;
+    padding: 10px;
+}
+
+/* Dropdown List Item */
+.dropdown-item {
+    padding: 5px 12px;
+    margin: 0;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover Effect for Dropdown List Item */
+.dropdown-item:hover {
     background-color: black;
     color: white;
-    
-    
 }
 
 .username-section {
@@ -128,11 +146,12 @@ body {
     display: flex;
     justify-content: space-around;
     margin-bottom: 10px;
+    border-radius: 10px;
 }
 
 .tabs button {
     background-color: white;
-    color:black;
+    color: black;
     padding: 10px 20px;
     border-radius: 6px;
     cursor: pointer;
@@ -149,11 +168,16 @@ body {
     color: white;
 }
 
+.tabs button.active {
+    background-color: black;
+    color: white;
+}
+
 /* Content Section */
 .content-section {
     padding: 10px;
     border: 1px solid #ccc;
-    background-color: white;
+    background-color: #f9f9f9;
     overflow-y: auto;
     max-height: 500px;
     border-radius: 10px;
@@ -164,7 +188,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 15px;
-    border-radius: 5%;
+    border-radius: 10px;
 }
 
 .document-card {
@@ -172,7 +196,7 @@ body {
     padding: 10px;
     text-align: center;
     background-color: #f9f9f9;
-    border-radius: 5%;
+    border-radius: 10px;
 }
 
 .document-icon {
@@ -187,34 +211,57 @@ body {
 }
 
 /* Assignments Table */
-.assignments-table {
+.assignments-content, .qa-content {
+    margin: auto;
+    max-width: 100%;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 16px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.assignments-table, .qa-table {
     width: 100%;
     border-collapse: collapse;
     border-radius: 10px;
-    
+    overflow: hidden;
 }
 
 .assignments-table th,
-.assignments-table td {
+.assignments-table td,
+.qa-table th,
+.qa-table td {
     border: 1px solid #ccc;
     padding: 10px;
     text-align: center;
-    
 }
 
-.assignments-table th {
+.assignments-table th,
+.qa-table th {
     background-color: #add8e6;
+    color: black;
+}
+
+.assignments-table tr:hover,
+.qa-table tr:hover {
+    background-color: #e0f7ff;
+}
+
+.assignments-table td:nth-child(3), 
+.assignments-table th:nth-child(3) {
+    text-align: center;
 }
 
 .download-btn {
     background: none;
     border: none;
     cursor: pointer;
-    scale: 2;
+    scale: 1.2;
     margin-top: 5%;
 }
 
 .download-icon {
     width: 20px;
     height: 20px;
+    scale: 2;
 }
