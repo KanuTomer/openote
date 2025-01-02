@@ -2,6 +2,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    min-height: max-content;
 }
 
 .dashboard {
@@ -11,7 +12,7 @@ body {
 /* Left Panel */
 .left-panel {
     width: 20%;
-    background-color: #add8e6; /* Light blue */
+    background-color: white; /* Light blue */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,7 +24,7 @@ body {
 .home-btn {
     padding: 12px 24px;
     width: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: #ccc;
     color: rgb(0, 0, 0);
     border: none;
     border-radius: 6px;
@@ -59,7 +60,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    background-color: white;
+    background-color: #ccc;
     cursor: pointer;
     border-radius: 6px;
     transition: background-color 0.5s ease-in-out, transform 0.4s ease;
@@ -96,15 +97,15 @@ body {
 .dropdown-list.open {
     max-height: 300px; /* Adjust this to fit your content */
     opacity: 1;
-    padding: 10px;
+    padding: 0px;
 }
 
 /* Dropdown List Item */
 .dropdown-item {
     padding: 5px 12px;
-    margin: 0;
+    margin: 2px;
     border-radius: 4px;
-    background-color: white;
+    background-color: #ccc;
     color: black;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
@@ -120,7 +121,7 @@ body {
     margin-top: auto;
     text-align: center;
     width: 100%;
-    background-color: #ffffff;
+    background-color:#ffffff;
     border-radius: 6px;
 }
 
@@ -147,20 +148,31 @@ body {
     justify-content: space-around;
     margin-bottom: 10px;
     border-radius: 10px;
+    align-items: center;
 }
 
+.tabs-group-left {
+    display: flex; /* Aligns buttons horizontally */
+    gap: 10px; /* Adds spacing between buttons */
+}
+
+.tabs-group-right {
+    display: flex; /* Ensures consistent layout for the right group */
+    
+}
+
+
 .tabs button {
-    background-color: white;
+    background-color: #ccc;
     color: black;
-    padding: 10px 20px;
+    padding: 10px 50px;
     border-radius: 6px;
     cursor: pointer;
     font-size: 16px;
-    margin-left: 2px;
-    margin-right: 2px;
-    justify-content: center;
-    width: 100%;
+    margin: 0; /* Ensures no unwanted vertical spacing */
     transition: background-color 0.5s ease-in-out, transform 0.4s ease;
+    border: none; /* Removes any default browser borders */
+    outline: none; /* Removes focus outlines */
 }
 
 .tabs button:hover {

@@ -108,31 +108,35 @@ function RightPanel() {
         <div className="right-panel">
             {/* Tabs */}
             <div className="tabs">
-                <Link to="/notes">
-                    <button className={`tab-btn ${isActive("/notes") ? "active" : ""}`}>
-                        Notes
-                    </button>
-                </Link>
-                <Link to="/assignments">
-                    <button className={`tab-btn ${isActive("/assignments") ? "active" : ""}`}>
-                        Assignments
-                    </button>
-                </Link>
-                <Link to="/qa">
-                    <button className={`tab-btn ${isActive("/qa") ? "active" : ""}`}>
-                        Q&As
-                    </button>
-                </Link>
-                <Link to="/testpaper">
-                    <button className={`tab-btn ${isActive("/testpaper") ? "active" : ""}`}>
-                        Test Papers
-                    </button>
-                </Link>
-                <Link to="/syllabus">
-                    <button className={`tab-btn ${isActive("/syllabus") ? "active" : ""}`}>
-                        Syllabus
-                    </button>
-                </Link>
+                <div className="tabs-group-left">
+                    <Link to="/notes">
+                        <button className={`tab-btn ${isActive("/notes") ? "active" : ""}`}>
+                            Notes
+                        </button>
+                    </Link>
+                    <Link to="/assignments">
+                        <button className={`tab-btn ${isActive("/assignments") ? "active" : ""}`}>
+                            Assignments
+                        </button>
+                    </Link>
+                    <Link to="/qa">
+                        <button className={`tab-btn ${isActive("/qa") ? "active" : ""}`}>
+                            Q&As
+                        </button>
+                    </Link>
+                    <Link to="/testpaper">
+                        <button className={`tab-btn ${isActive("/testpaper") ? "active" : ""}`}>
+                            Test Papers
+                        </button>
+                    </Link>
+                </div>
+                <div className="tabs-group-right">
+                    <Link to="/syllabus">
+                        <button className={`tab-btn ${isActive("/syllabus") ? "active" : ""}`}>
+                            Syllabus
+                        </button>
+                    </Link>
+                </div>
             </div>
 
             {/* Dynamic Content Rendering */}
