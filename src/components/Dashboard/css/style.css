@@ -158,9 +158,7 @@ body {
 
 .tabs-group-right {
     display: flex; /* Ensures consistent layout for the right group */
-    
 }
-
 
 .tabs button {
     background-color: #ccc;
@@ -173,6 +171,8 @@ body {
     transition: background-color 0.5s ease-in-out, transform 0.4s ease;
     border: none; /* Removes any default browser borders */
     outline: none; /* Removes focus outlines */
+    min-width: 200px;
+    font-weight: bold;
 }
 
 .tabs button:hover {
