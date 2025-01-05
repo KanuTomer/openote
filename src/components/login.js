@@ -8,7 +8,7 @@ const Login = () => {
 
   const handleContinue = (e) => {
     e.preventDefault();
-    navigate('/main_notes'); // Navigate to main_notes
+    navigate('/notes'); // Navigate to main_notes
   };
 
   return (

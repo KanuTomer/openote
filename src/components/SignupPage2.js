@@ -7,7 +7,7 @@ const SignupPage2 = () => {
 
   const handleContinue = (e) => {
     e.preventDefault();
-    navigate('/main_notes'); // Navigate to main_notes
+    navigate('/notes'); // Navigate to main_notes
   };
   return (
     <div className="signup-page2">
